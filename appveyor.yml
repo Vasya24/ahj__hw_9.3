@@ -1,5 +1,4 @@
 version: 1.0.{build}
 environment:
   GHT: a728fc86586907781c81b119e27b14d885392e95
-build:
-  verbosity: minimal
+build: off

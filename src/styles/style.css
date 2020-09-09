@@ -1,3 +1,47 @@
 body {
     background: #eee;
   }
+
+  #like_btn {
+    width: 300px;
+    height: 150px;
+    font-size: 30px;
+    background-color: #ED3833;
+    color: #ffffff;
+    text-align: center;
+    line-height: 150px;
+    position: relative;
+    top: 1000px;
+    left: 50%;
+    cursor: pointer;
+  }
+
+.like_img {
+  position: relative;
+  top: 900px;
+  left: 50%;
+  animation: like 500ms ease-out 0s
+}
+
+@keyframes like {
+  0% {
+    top: 900px;
+    left: 55%;
+  }
+  25% {
+    top: 850px;
+    left: 49%
+  }
+  50% {
+    top: 800px;
+    left: 55%
+  }
+  75% {
+    top: 750px;
+    left: 51%
+  }
+  100% {
+    top: 700px;
+    left: 55%
+  }
+}
